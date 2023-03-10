@@ -23,6 +23,7 @@ function partitionBooksByBorrowedStatus(books) {
   })
   result = [arrayFalse, arrayTrue];
   return result; 
+  const test = books.reduce();
 }
 
 function getBorrowersForBook({borrows}, accounts) {
